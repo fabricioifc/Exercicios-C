@@ -7,7 +7,13 @@ R$8.00 por diária, se o número de diárias for menor que 15.
 */
 #include <stdio.h>
 
+float calcular(float diarias, float diaria, float servicos) {
+    // return (diarias * custo) + (diarias * diaria);
+    return (diaria + servicos) * diarias;
+}
+
 int main() {
+    const int diaria = 60;
     int numDiarias;
     float taxaServicos, custoTotal;
 
@@ -25,7 +31,7 @@ int main() {
     }
 
     // Calcular o custo total de hospedagem
-    custoTotal = (60.00 + taxaServicos) * numDiarias;
+    custoTotal = calcular(numDiarias, diaria, taxaServicos);
 
     // Exibir o custo total de hospedagem
     printf("O custo total de hospedagem é: R$%.2f\n", custoTotal);
