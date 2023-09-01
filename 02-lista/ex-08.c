@@ -6,7 +6,7 @@ Calcular a média aritmética simples e escrever uma mensagem que diga se o alun
 #include <stdio.h>
 
 int main() {
-    float notaA1, notaA2. media;
+    float notaA1, notaA2, media;
 
     printf("Digite a nota da A1: ");
     scanf("%f", &notaA1);
