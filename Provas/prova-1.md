@@ -6,6 +6,8 @@ Essa é a pimeira prova da disciplina de Algoritmos e Programação em C. A prov
 - Operadores
 - Estruturas de controle
 
+Cada questão tem o mesmo peso.
+
 ## Questão 1
 
 Escreva um programa que leia um número inteiro e imprima o seu antecessor e o seu sucessor. Por exemplo, se o número lido for 10, o programa deve imprimir:
@@ -30,7 +32,7 @@ Média: 6.2
 Aluno em Recuperação
 ```
 
-## Questão 4
+## Questão 3
 
 Escreva um programa em C que solicita ao usuário um número inteiro e imprime se ele é par ou ímpar. Por exemplo, se o usuário digitar 10, o programa deve imprimir:
 
@@ -38,7 +40,7 @@ Escreva um programa em C que solicita ao usuário um número inteiro e imprime s
 10 é par
 ```
 
-## Questão 6
+## Questão 4
 
 Escreva um programa em C para verificar se um determinado ano é bissexto. Um ano é bissexto se ele for divisível por 4, mas não por 100. Também são bissextos os divisíveis por 400. Por exemplo, 1992, 1996 e 2000 são bissextos, mas 1993 e 1900 não são. O programa deve solicitar ao usuário um ano e imprimir se ele é bissexto ou não. Por exemplo, se o usuário digitar 1996, o programa deve imprimir:
 
@@ -46,7 +48,7 @@ Escreva um programa em C para verificar se um determinado ano é bissexto. Um an
 1996 é bissexto
 ```
 
-## Questão 7
+## Questão 5
 
 Escreva um programa em C que solicita ao usuário um número inteiro e verifica se ele é divisível por 3 e por 5. Por exemplo, se o usuário digitar 15, o programa deve imprimir:
 
@@ -54,7 +56,7 @@ Escreva um programa em C que solicita ao usuário um número inteiro e verifica 
 15 é divisível por 3 e por 5
 ```
 
-## Questão 8
+## Questão 6
 
 Escreva um programa em C para recebe trẽs números inteiros e verifica se eles podem ser os comprimentos dos lados de um triângulo. Se os lados formarem um triângulo, o programa deve imprimir se ele é equilátero, isósceles ou escaleno.
 
@@ -68,7 +70,7 @@ Por exemplo, se o usuário digitar 3, 3 e 3, o programa deve imprimir:
 3, 3 e 3 formam um triângulo equilátero
 ```
 
-## Questão 9
+## Questão 7
 
 Escreva um programa em C que dado quatro valores, A, B, C e D, o algoritmo imprima o maior e o menor valor. Por exemplo, se o usuário digitar 10, 20, 30 e 40, o programa deve imprimir:
 
@@ -77,7 +79,7 @@ Maior valor = 40
 Menor valor = 10
 ```
 
-## Questão 10
+## Questão 8
 
 Escreva um programa em C que leia um número inteiro entre 1 e 12 e escreva o mês correspondente. Caso o usuário digite um número fora desse intervalo, deverá aparecer uma mensagem informando que não existe mês com este número. Por exemplo, se o usuário digitar 2, o programa deve imprimir:
 
