@@ -1,6 +1,7 @@
 # Prova de Algoritmos e Programação em C
 
 Nome do aluno: ____________________________________\newline
+
 Nome do aluno: ____________________________________\newline
 
 Essa é a primeira prova da disciplina de Algoritmos e Programação em C. A prova vai abordar os seguintes assuntos:
@@ -82,15 +83,15 @@ ______________ main() {
 
     printf("Média: %.2f\n", ___________________);
 
-    if (______________________) {
+    ____ (______________________) {
         printf("Aluno Aprovado\n");
-    } else if (_______________________) {
+    } _______________ (_______________________) {
         printf("Aluno em Recuperação\n");
-    } else {
+    } _______________ {
         printf("Aluno Reprovado\n");
     }
 
-    return 0;
+    ________________ 0;
 }
 ```
 
@@ -107,10 +108,10 @@ int main() {
     printf("Digite um número inteiro: ");
     scanf(_____________________________);
 
-    if (______________________) {
+    ____ (______________________) {
         printf("%d é par\n", numero);
-    } else {
-        printf("%d é ímpar\n", numero);
+    } ____________ {
+        printf("%d é ímpar\n", ________________________);
     }
     return 0;
 }
@@ -130,7 +131,7 @@ Resposta:
 int main() {
     _______ ano;
     printf("Digite um ano: ");
-    scanf("%d", &ano);
+    scanf("%d", ___________________);
 
     ________ (_________________________) {
         printf("%d é bissexto\n", ano);
@@ -140,7 +141,6 @@ int main() {
     return 0;
 }
 ```
-\pagebreak
 ## Questão 5
 
 Escreva um programa em C que solicita ao usuário um número inteiro e verifica se ele é divisível por 3 e por 5. Por exemplo, se o usuário digitar 15, o programa deve imprimir:
@@ -152,14 +152,15 @@ Resposta:
 ```c
 #include <stdio.h>
 
-int main() {
-    int numero;
+int _____________() {
+
+    _____________ numero;
     printf("Digite um número inteiro: ");
     scanf("%d", &numero);
-
-    if (__________________________) {
+    
+    ____ (__________________________) {
         printf(__________________________________________________);
-    } else {
+    } ________ {
         printf("%d não é divisível por 3 e por 5\n", numero);
     }
     return 0;
@@ -190,12 +191,12 @@ _________________________ {
 
     if (__________________________) {
         printf("%d, %d e %d formam um triângulo equilátero\n", a, b, c);
-    } else if (__________________________) {
+    } __________ (__________________________) {
         printf("%d, %d e %d formam um triângulo isósceles\n", a, b, c);
-    } else if (__________________________) {
+    } __________ (__________________________) {
         printf("%d, %d e %d formam um triângulo escaleno\n", a, b, c);
-    } else {
-        printf("%d, %d e %d não formam um triângulo\n", a, b, c);
+    } __________ {
+        printf("%d, %d e %d não formam um triângulo\n", ____________________);
     }
 
     ______________ 0;
@@ -222,6 +223,10 @@ int main() {
     int maior = a;
     int menor = a;
 
+    _______________________________________________
+    _______________________________________________
+    _______________________________________________
+    _______________________________________________
     _______________________________________________
     _______________________________________________
     _______________________________________________
