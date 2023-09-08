@@ -33,7 +33,7 @@ int main() {
     return 0;
 }
 ```
-
+\pagebreak
 ## Questão 2
 
 Escreva um programa em C que leia o nome, matrícula, idade e três notas de um aluno. Calcule a média ponderada do aluno, considerando que o peso para a primeira nota é 2, para a segunda nota é 3 e, para a terceira nota, 5. Imprima o nome, a matrícula, a idade e a média do aluno. Impima também a mensagem "Aprovado" se a média for maior ou igual a 7, "Recuperação" se a média for maior ou igual a 5 e menor que 7 e "Reprovado" se a média for menor que 5. Por exemplo, se o usuário digitar:
