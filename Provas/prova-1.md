@@ -180,6 +180,28 @@ Por exemplo, se o usuário digitar 3, 3 e 3, o programa deve imprimir:
 ```
 3, 3 e 3 formam um triângulo equilátero
 ```
+Resposta:
+```c
+#include <stdio.h>
+
+_________________________ {
+    ____________ a, b, c;
+    printf("Digite três números inteiros: ");
+    scanf("%d %d %d", _________________________________);
+
+    if (__________________________) {
+        printf("%d, %d e %d formam um triângulo equilátero\n", a, b, c);
+    } else if (__________________________) {
+        printf("%d, %d e %d formam um triângulo isósceles\n", a, b, c);
+    } else if (__________________________) {
+        printf("%d, %d e %d formam um triângulo escaleno\n", a, b, c);
+    } else {
+        printf("%d, %d e %d não formam um triângulo\n", a, b, c);
+    }
+
+    ______________ 0;
+}
+```
 
 ## Questão 7
 
@@ -240,7 +262,7 @@ Resposta:
 #include <stdio.h>
 
 int main() {
-    
+
     int ______________________;
     printf("Digite um número entre 1 e 12: ");
     
