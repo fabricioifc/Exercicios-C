@@ -105,7 +105,7 @@ Resposta:
 int main() {
     int numero;
     printf("Digite um número inteiro: ");
-    scanf("%d", &numero);
+    scanf(_____________________________);
 
     if (______________________) {
         printf("%d é par\n", numero);
