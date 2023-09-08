@@ -1,5 +1,8 @@
 # Prova de Algoritmos e Programação em C
 
+Nome do aluno: ____________________________________
+Nome do aluno: ____________________________________
+
 Essa é a pimeira prova da disciplina de Algoritmos e Programação em C. A prova vai abordar os seguintes assuntos:
 
 - Tipos de dados
