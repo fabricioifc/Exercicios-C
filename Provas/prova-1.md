@@ -96,11 +96,8 @@ ______________ main() {
 
 ## Questão 3
 
-Escreva um programa em C que solicita ao usuário um número inteiro e imprime se ele é par ou ímpar. Por exemplo, se o usuário digitar 10, o programa deve imprimir:
+Escreva um programa em C que solicita ao usuário um número inteiro e imprime se ele é par ou ímpar. Por exemplo, se o usuário digitar 10, o programa deve imprimir: 10 é par. Se o usuário digitar 11, o programa deve imprimir: 11 é ímpar.
 
-```
-10 é par
-```
 Resposta: 
 ```c
 #include <stdio.h>
