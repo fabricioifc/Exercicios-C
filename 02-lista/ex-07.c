@@ -15,6 +15,7 @@ Construa um programa que solicite o nome e a idade de um atleta e imprima a sua 
 */
 
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char nome[50];
