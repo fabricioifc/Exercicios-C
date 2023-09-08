@@ -3,7 +3,7 @@
 Nome do aluno: ____________________________________\newline
 Nome do aluno: ____________________________________\newline
 
-Essa é a pimeira prova da disciplina de Algoritmos e Programação em C. A prova vai abordar os seguintes assuntos:
+Essa é a primeira prova da disciplina de Algoritmos e Programação em C. A prova vai abordar os seguintes assuntos:
 
 - Tipos de dados
 - Operadores
