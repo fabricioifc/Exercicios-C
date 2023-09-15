@@ -144,7 +144,6 @@ int main() {
 ## Questão 5
 
 Escreva um programa em C que solicita ao usuário um número inteiro e verifica se ele é divisível por 3 e por 5. Por exemplo, se o usuário digitar 15, o programa deve imprimir:
-
 ```
 15 é divisível por 3 e por 5
 ```
@@ -158,8 +157,9 @@ int _____________() {
     printf("Digite um número inteiro: ");
     scanf("%d", &numero);
     
-    ____ (__________________________) {
-        printf(__________________________________________________);
+    ____ (__________________________________________________________________) {
+
+        printf(_____________________________________________________________);
     } ________ {
         printf("%d não é divisível por 3 e por 5\n", numero);
     }
@@ -198,15 +198,13 @@ _________________________ {
     } __________ {
         printf("%d, %d e %d não formam um triângulo\n", ____________________);
     }
-
-    ______________ 0;
+    return 0;
 }
 ```
 
 ## Questão 7
 
 Escreva um programa em C que dado quatro valores, A, B, C e D, o algoritmo imprima o maior e o menor valor. Por exemplo, se o usuário digitar 10, 20, 30 e 40, o programa deve imprimir:
-
 ```
 Maior valor = 40
 Menor valor = 10
