@@ -253,18 +253,14 @@ int main() {
     return 0;
 }
 ```
-
 ## Questão 8
 
 O restaurante a quilo Dona Maria cobra R$12,00 por cada quilo de refeição. Escreva um
 algoritmo em C que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar.
 Assuma que a balança já desconte o peso do prato. Por exemplo, se o cliente montar um prato com 0.5kg, o programa deve imprimir:
-
 ```
 Valor a pagar: R$6,00
 ```
-
-Resposta:
 ```c
 #include <stdio.h>
 
