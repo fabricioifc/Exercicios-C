@@ -2,9 +2,12 @@
 
 1. Escreva um programa que imprima os números de 1 a 10 em ordem crescente.
 2. Escreva um programa que imprima os números de 1 a 10 em ordem decrescente.
-3. Escreva um programa que imprima os números de 1 a 10 em ordem crescente, mas apenas os números ímpares.
-4. Escreva um programa que imprima os números de 1 a 10 em ordem crescente, mas apenas os números múltiplos de 3 e de 5.
-5. Escreva um programa que imprima o nome de uma pessoa letra por letra. O nome deve ser lido do teclado e o programa deve imprimir uma letra por linha.
+3. Escreva um programa que imprima os números de 1 a 10 em ordem crescente, 
+    mas apenas os números ímpares.
+4. Escreva um programa que imprima os números de 1 a 10 em ordem crescente, 
+    mas apenas os números múltiplos de 3 e de 5.
+5. Escreva um programa que imprima o nome de uma pessoa letra por letra. 
+    O nome deve ser lido do teclado e o programa deve imprimir uma letra por linha.
 */
 
 #include <stdio.h>
