@@ -1,16 +1,16 @@
-# Jogo de Adivinhação
+# Jogo da Forca
 
-Bem-vindo ao "Jogo de Adivinhação". Neste jogo, você terá a oportunidade de testar sua habilidade em adivinhar um número secreto entre 1 e 100. Sua tarefa é adivinhar o número correto com o menor número de tentativas possível.
+Bem-vindo ao "Jogo da Forca"! Neste jogo, você deve adivinhar uma palavra oculta, uma letra por vez. O objetivo é adivinhar a palavra antes de ficar "enforcado" por fazer muitos palpites errados.
 
 **Instruções:**
 
- - O computador selecionará aleatoriamente um número entre 1 e 100 e o manterá em segredo.
- - Sua missão é adivinhar o número secreto.
- - Você pode fazer quantas tentativas forem necessárias para acertar o número.
- - Após cada tentativa, o computador lhe dará uma dica se o número secreto é maior ou menor do que o seu palpite.
- - O jogo continuará até você adivinhar o número correto.
- - Quando você adivinhar corretamente, o jogo exibirá o número secreto e informará quantas tentativas você levou para acertar.
- - Você pode optar por jogar novamente se desejar.
+ - O computador escolherá uma palavra secreta. A palavra pode conter letras maiúsculas, letras minúsculas e espaços em branco. Você não sabe qual é a palavra.
+ - Você tem um número limitado de tentativas para adivinhar a palavra antes de ser enforcado.
+ - Após cada tentativa, o programa mostrará a palavra parcialmente revelada, indicando as letras corretamente adivinhadas e as letras não adivinhadas com "_".
+ - Você também verá as letras que já tentou, para evitar palpites repetidos.
+ - Digite uma letra a cada rodada para tentar adivinhar a palavra.
+ - Se você adivinhar todas as letras da palavra antes de ficar sem tentativas, você vence o jogo.
+ - Se você usar todas as tentativas sem adivinhar a palavra, você perde e é "enforcado".
 
 **Passo 1: Configuração Inicial**
 
