@@ -18,6 +18,10 @@ int verificar_maior_igual(int a, int b) {
     return a >= b;
 }
 
+void pular_linha() {
+    printf("\n");
+}
+
 void imprimir_mensagem(char* mensagem, ...) {
     va_list args;
     va_start(args, mensagem);

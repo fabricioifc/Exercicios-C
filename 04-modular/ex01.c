@@ -23,19 +23,19 @@ float ler_nota(int i) {
     return nota;
 }
 
-float* ler_notas(int n) {
-    float* notas = malloc(n*sizeof(float));
-    for (int i = 0; i < n; i++) {
-        notas[i] = ler_nota(i);
-    }
-    return notas;
-}
+// float* ler_notas(int n) {
+//     float* notas = malloc(n*sizeof(float));
+//     for (int i = 0; i < n; i++) {
+//         notas[i] = ler_nota(i);
+//     }
+//     return notas;
+// }
 
-
-float calcular_media(float* notas, int n) {
-    float soma=0, media;
+float calcular_media(int n) {
+    float nota, soma=0, media;
     for (int i = 0; i < n; i++) {
-        soma+=notas[i];
+        nota = ler_nota(i);
+        soma += nota;
     }
     media = soma/n;
     return media;
@@ -46,28 +46,29 @@ char* verificar_aprovacao(float media) {
     // return media >= 7 ? "Aprovado" : "Reprovado";
 }
 
-void imprimir_notas(float* notas, int n) {
-    for (int i = 0; i < n; i++) {
-        printf("Nota %d: %.2f\n", i+1, notas[i]);
-    }
-}
+// void imprimir_notas(float* notas, int n) {
+//     imprimir_mensagem("\n***Notas***");
+//     for (int i = 0; i < n; i++) {
+//         imprimir_mensagem("\nNota %d: %.2f", i+1, notas[i]);
+//     }
+// }
 
 void imprimir_resultado(float media) {
     // printf("\nA média é: %.2f", media);
     // printf("\nO aluno está %s", verificar_aprovacao(media));
     // printf("\n");
-    imprimir_mensagem("A média é: %.2f", media);
+    imprimir_mensagem("\n--- Resultado ---");
+    imprimir_mensagem("\nA média é: %.2f", media);
     imprimir_mensagem("\nO aluno está %s", verificar_aprovacao(media));
-    imprimir_mensagem("\n");
 }
 
 int main() {
     int n = ler_quantidade_de_notas();
-    float* notas = ler_notas(n);
-    float media = calcular_media(notas, n);
+    // float* notas = ler_notas(n);
+    float media = calcular_media(n);
 
-    imprimir_notas(notas, n);
+    // imprimir_notas(notas, n);
     imprimir_resultado(media);
-    free(notas);
+    pular_linha();
     return 0;
 }
