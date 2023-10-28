@@ -1,38 +1,21 @@
-/*Faça um programa em C que leia uma palavra e imprima a palavra invertida. Use laço de repetição*/
 
 #include <stdio.h>
+#include <string.h>
 
-int main() {
-
-    char p[100];
-    int tamanho = 0;
-
-    printf("Informe uma palavra: ");
-    scanf("%s", p);
-
-    while (p[tamanho] != '\0') {
-        tamanho++;
-    }
-
-    for (int i = tamanho; i >= 0; i--) {
-        printf("%c", p[i]);
-    }
-
-    printf("\n");
-    return 0;
-}
-
-// #include <stdio.h>
-
-// int main() {
-
-//     char p[] = {"palavra"};
-
-//     int tamanho = sizeof(p);
-//     for (int i = tamanho; i >= 0; i--) {
-//         printf("%c", p[i]);
-//     }
-
-//     printf("\n");
-//     return 0;
-// }
+int main(){
+	char palavra[100];
+	int tamanho,i;
+	
+	printf(" Digite a palavra:");
+	scanf("%s", palavra);
+	
+	tamanho = strien(palavra);
+	
+	printf("Palavra invertida:");
+	for (i = tamanho - 1;i >=0;i--){
+		printf("%c",palavra[i]);
+	}
+	printf("\n");
+	 return 0;
+	
+	 }
