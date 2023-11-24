@@ -1,33 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+# include <stdio.h>
+
+#define QTD_FRUTAS 3
+#define TAM_FRUTA 10
 
 int main(void) {
-    char matriz[3][20];
+    char* frutas[QTD_FRUTAS][TAM_FRUTA];
 
-    // Calculando o número de linhas e colunas
-    int linhas = sizeof(matriz) / sizeof(matriz[0]);
-    int colunas = sizeof(matriz[0]) / sizeof(matriz[0][0]);
+    // tamanho do vetor
+    int tamanho = sizeof(frutas) / sizeof(frutas[0]);
 
-    // Calculando o tamanho total
-    int tamanhoTotal = linhas * colunas;
-
-    // Imprimindo detalhes da matriz
-    printf("Número de linhas: %d\n", linhas);
-    printf("Número de colunas: %d\n", colunas);
-    printf("Tamanho total: %d\n", tamanhoTotal);
-
-    // Lendo os valores da matriz
-    printf("\nLendo os valores da matriz:\n");
-    for (int i = 0; i < linhas; i++) {
-        printf("Nome do aluno %d: ", i);
-        scanf("%s", matriz[i]);
+    for (int i = 0; i < tamanho; i++) {
+        printf("Digite o nome da fruta %d: ", i + 1);
+        scanf("%s", frutas[i]);
     }
 
-    // Imprimindo os valores da matriz
-    printf("\nValores da matriz:\n");
-    for (int i = 0; i < linhas; i++) {
-        printf("Nome do aluno %d: %s\n", i, matriz[i]);
+    printf("\nFrutas digitadas:\n");
+    for (int i = 0; i < tamanho; i++) {
+        printf("%s\n", frutas[i]);
     }
-
-    return 0;
 }

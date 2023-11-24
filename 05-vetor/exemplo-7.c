@@ -1,36 +1,45 @@
+// Crie um programa em C para usar um vetor de notas de 5 alunos e os pesos. Leia as notas dos 5 alunos, calcule e imprima a média ponderada das notas.
+
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
-    int tamanho;
+int main(void) {
+    float notas[3], pesos[3], soma = 0, somaPesos = 0;
 
-    // Solicitar o tamanho do vetor ao usuário
-    printf("Digite o tamanho do vetor: ");
-    scanf("%d", &tamanho);
+    // tamanho do vetor
+    int tamanho = sizeof(notas) / sizeof(float);
 
-    // Alocar memória para o vetor
-    int *vetor = (int *)malloc(tamanho * sizeof(int));
-
-
-    // Verificar se a alocação foi bem-sucedida
-    if (vetor == NULL) {
-        printf("Erro na alocação de memória.\n");
-        return 1; // Encerrar o programa com código de erro
-    }
-
-    // Preencher o vetor com valores (apenas um exemplo)
+    // Lendo os valores da matriz
+    printf("\nLendo os valores da matriz:\n");
     for (int i = 0; i < tamanho; i++) {
-        vetor[i] = i * 2;
+        printf("Digite a nota %d: ", i);
+        scanf("%f", &notas[i]);
+        printf("Digite o peso da nota %d: ", i);
+        scanf("%f", &pesos[i]);
     }
 
-    // Imprimir os valores do vetor
-    printf("Valores do vetor:\n");
+    // Imprimindo os valores da matriz
+    printf("\nValores da matriz:\n");
     for (int i = 0; i < tamanho; i++) {
-        printf("%d ", vetor[i]);
+        printf("Nota do aluno %d: %.2f\n", i, notas[i]);
+        printf("Peso da nota do aluno %d: %.2f\n", i, pesos[i]);
     }
 
-    // Liberar a memória alocada para o vetor
-    free(vetor);
+    // Calculando a média ponderada
+    for (int i = 0; i < tamanho; i++) {
+        soma += notas[i] * pesos[i];
+        somaPesos += pesos[i];
+    }
 
-    return 0; // Programa executado com sucesso
+    float media = soma / somaPesos;
+    printf("Média ponderada: %.2f\n", media);
+
+    if (media >= 6) {
+        printf("Aprovado\n");
+    } else if (media >= 4) {
+        printf("Recuperação\n");
+    } else {
+        printf("Reprovado\n");
+    }
+    
+    return 0;
 }
