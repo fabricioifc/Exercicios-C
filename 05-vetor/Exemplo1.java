@@ -27,5 +27,7 @@ public class Exemplo1 {
         
         // Aqui vai ocorrer um erro de execução (ArrayIndexOutOfBoundsException)
         System.out.println(vetor[5]);
+
+        entrada.close();
     }
 }
