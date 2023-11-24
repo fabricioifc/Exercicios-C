@@ -2,6 +2,7 @@
 
 int main(void) {
     int vetor[5];
+    // float vetor[5];
 
     // tamanho do vetor
     int tamanho = sizeof(vetor) / sizeof(int);
